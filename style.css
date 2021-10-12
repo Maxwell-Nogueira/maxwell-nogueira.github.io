@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  color: rgb(65, 65, 65);
+  font-family: 'PT Mono', monospace;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  background-color: #071C21;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  font-size: 20px;
+  line-height: 35px;
+  border-bottom: solid 2px green;
+}
+
+#minha_foto {
+  width: 300px;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: solid 2px green;
+  background: #071C21;
+}
+
+table , th , td {
+  border: solid 1px #071C21;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 300px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background-color: #071C21;
+  color: white;
+  border-top: solid 2px green;
+  z-index: 1;
+  text-align: center;
+}
+
+.table {
+  position: absolute;
+  top: 470px;
+  left: 28px;
+  font-size: 14px;
+}
+
+.sessao {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 25%;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.habilidades {
+  position: absolute;
+  top: 530px;
+  left: 20px;
+  font-size: 14px;
+  padding: 10px;
+  width: 170px;
+  height: 230px;
+  font-size: 15px;
+  padding-bottom: 130px;
+}
+
+.linkedin {
+  position: absolute;
+  top: 321px;
+  left: 60px;
+  width: 170px;
+  height: 180px;
+  z-index: 1;
+}
