@@ -22,9 +22,9 @@ body {
 #minha_foto {
   width: 300px;
   position: absolute;
-  top: 110px;
+  top: 115px;
   left: 20px;
-  border-radius: 50px;
+  border-radius: 50%;
   padding: 5px;
   border: solid 2px green;
   background: #071C21;
@@ -81,8 +81,12 @@ table , th , td {
 .linkedin {
   position: absolute;
   top: 321px;
-  left: 60px;
+  left: 100px;
   width: 170px;
   height: 180px;
   z-index: 1;
+}
+
+.ponto li {
+  list-style: none;
 }
